@@ -29,7 +29,7 @@ observaciones = pnd.read_csv("datas/sonar.all-data.csv")
 # PREPARACIÓN DE LOS DATOS
 #---------------------------------------------
 
-print("N.º columnas: ",len(observations.columns))
+print("N.º columnas: ",len(observaciones.columns))
 #Para el parendizaje solo se toman los datos procedentes del sonar
 X = observaciones[observaciones.columns[0:60]].values
 
