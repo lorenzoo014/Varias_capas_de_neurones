@@ -210,7 +210,7 @@ formula_precision = tf.reduce_mean(tf.cast(formula_calculo_clasificaciones_corre
 # PRECISIÓN EN LOS DATOS DE PRUEBAS
 #-------------------------------------------------------------------------
 
-n_clasificaciones = 0;
+n_clasificaciones = 0
 n_clasificaciones_correctas = 0
 
 #Se mira el conjunto de los datos de prueba (text_x)
@@ -243,7 +243,7 @@ print("Precisión en los datos de pruebas = "+str((n_clasificaciones_correctas/n
 # PRECISIÓN EN LOS DATOS DE APRENDIZAJE
 #-------------------------------------------------------------------------
 
-n_clasificaciones = 0;
+n_clasificaciones = 0
 n_clasificaciones_correctas = 0
 for i in range(0,train_x.shape[0]):
 
@@ -270,7 +270,7 @@ print("Precisión en los datos de aprendizaje = " + str((n_clasificaciones_corre
 #-------------------------------------------------------------------------
 
 
-n_clasificaciones = 0;
+n_clasificaciones = 0
 n_clasificaciones_correctas = 0
 for i in range(0,207):
 
